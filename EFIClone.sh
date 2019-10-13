@@ -147,7 +147,7 @@ then
 	sourceVolume=$1
 	destinationVolume=$2
 else	
-	if [[ "$#" == "6" ]]
+	if [[ "$#" == "5" ]]
 	then 
 		#log inputs to script
 		writeTolog "Called From SuperDuper!"
